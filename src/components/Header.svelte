@@ -106,7 +106,7 @@
     <HeaderUtilities>
         {#if !isMobile}
             <HeaderActionLink
-                    title="Toggle dark <-> light mode"
+                    title="ダークテーマとライトテーマを切り替え"
                     icon={{ render: LightFilled24 }}
                     onclick="toggleDarkMode()"
             />
